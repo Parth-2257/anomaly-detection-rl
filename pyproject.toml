@@ -2,14 +2,17 @@
 name = "anomaly-detection"
 version = "0.1.0"
 description = "AI safety prompt injection detection system"
-authors = [
-    {name = "Parth"}
-]
+authors = [{ name = "Parth" }]
+
 dependencies = [
     "fastapi",
     "uvicorn",
-    "pydantic"
+    "pydantic",
+    "openenv>=0.2.0"
 ]
+
+[project.scripts]
+server = "inference:app"
 
 [tool.setuptools]
 packages = ["agent", "env"]
