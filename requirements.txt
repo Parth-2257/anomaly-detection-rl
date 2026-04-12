@@ -1,0 +1,7 @@
+# Project dependencies
+
+fastapi
+uvicorn
+pydantic
+groq
+python-dotenv
