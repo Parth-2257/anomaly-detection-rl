@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-server = "inference:app"
+server = "server.app:app"
 
 [tool.setuptools]
 packages = ["agent", "env"]
