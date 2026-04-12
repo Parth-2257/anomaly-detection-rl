@@ -1,11 +1,23 @@
-name: anomaly-detection-env
+version: "1.0"
 
-endpoints:
-  reset: /reset
-  step: /step
+env:
+  name: anomaly-detection-env
 
-actions:
-  - is_attack
-  - type
-  - confidence
-  - explanation
+  observation_space:
+    type: object
+
+  action_space:
+    type: object
+    properties:
+      is_attack:
+        type: boolean
+      type:
+        type: string
+      confidence:
+        type: number
+      explanation:
+        type: string
+
+  endpoints:
+    reset: /reset
+    step: /step
