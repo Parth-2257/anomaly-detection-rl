@@ -1,0 +1,11 @@
+name: anomaly-detection-env
+
+endpoints:
+  reset: /reset
+  step: /step
+
+actions:
+  - is_attack
+  - type
+  - confidence
+  - explanation
