@@ -68,3 +68,13 @@ def step(action: PromptAction):
 @app.post("/analyze")
 def analyze(req: AnalyzeRequest):
     return get_llm_response(req.input)
+
+
+# 🔥 IMPORTANT PART (validator ke liye)
+def main():
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=7860)
+
+
+if __name__ == "__main__":
+    main()
