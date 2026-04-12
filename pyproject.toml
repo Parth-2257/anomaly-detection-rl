@@ -1,0 +1,15 @@
+[project]
+name = "anomaly-detection"
+version = "0.1.0"
+description = "AI safety prompt injection detection system"
+authors = [
+    {name = "Parth"}
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic"
+]
+
+[tool.setuptools]
+packages = ["agent", "env"]
