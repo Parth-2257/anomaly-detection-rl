@@ -1,5 +1,5 @@
 ---
-title: Anomaly Detection
+title: Anomaly Detection RL
 emoji: 🤖
 colorFrom: blue
 colorTo: green

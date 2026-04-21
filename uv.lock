@@ -21,7 +21,7 @@ wheels = [
 ]
 
 [[package]]
-name = "anomaly-detection"
+name = "anomaly-detection-rl"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

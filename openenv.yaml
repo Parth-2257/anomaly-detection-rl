@@ -1,7 +1,7 @@
 version: "1.0"
 
 env:
-  name: anomaly-detection-env
+  name: anomaly-detection-rl-env
 
   observation_space:
     type: object

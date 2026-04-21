@@ -1,5 +1,5 @@
 [project]
-name = "anomaly-detection"
+name = "anomaly-detection-rl"
 version = "0.1.0"
 description = "AI safety prompt injection detection system"
 authors = [{ name = "Parth" }]
